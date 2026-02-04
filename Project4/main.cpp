@@ -2,15 +2,16 @@
 
 int main() {
 
-	int x1;
+	int n, m;
 
 
-	cout << "Input first point(x1, y1): " << endl;
-	cin >> x1
+	cout << "Input first number(n): " << endl;
+	cin >> n;
 
+	cout << "Input first number(m): " << endl;
+	cin >> m;
 
-
-		string exam;
+	string exam = makes_order_everywhere(n, m); 
 
 	cout << exam;
 
