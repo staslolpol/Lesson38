@@ -2,15 +2,13 @@
 
 int main() {
 
-	int x1;
+	int n;
 
 
-	cout << "Input first point(x1, y1): " << endl;
-	cin >> x1
+	cout << "Input number: " << endl;
+	cin >> n;
 
-
-
-		string exam;
+	string exam = is_digits_count_even(n) ? "True." : "False.";
 
 	cout << exam;
 
